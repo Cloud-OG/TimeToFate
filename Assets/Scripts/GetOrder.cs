@@ -11,22 +11,28 @@ public class GetOrder : MonoBehaviour
     {
         // 获取当前日期
         DateTime currentDate = DateTime.Now;
-        int hour;
+        
         // 创建一个ChineseLunisolarCalendar对象
         ChineseLunisolarCalendar chineseCalendar = new ChineseLunisolarCalendar();
         
         // 将当前日期转换为农历日期
         int month = chineseCalendar.GetMonth(currentDate);
         int day = chineseCalendar.GetDayOfMonth(currentDate);
-        //换算古代时辰
-        if (System.DateTime.Now.Hour>=23)
+        
+        // 获取当前小时
+        int currentHour = currentDate.Hour;
+        
+        // 根据当前小时计算古代时辰
+        int hour;
+        if (currentHour >= 23 || currentHour < 1)
         {
-            hour = 1;
+            hour = 1; // 子时
         }
         else
-            hour = System.DateTime.Now.Hour/2+2;
-        
-
+        {
+            hour = (currentHour + 1) / 2 + 1;
+        }
+    
         return month + day + hour - 2;
     }
 }
