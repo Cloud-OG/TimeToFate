@@ -2,12 +2,6 @@
 
 用Unity开发的一个能够根据时间预测事件的app，虽然原理是玄学，但算法还算科学。
 
-软件包放在了百度云里头，Win需要打开这个.exe文件，Mac则只需打开.app文件即可食用。
-
-![image](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F62ea150e-ff98-40ae-986e-7a386289383f%2F83e3f801-2426-4cbc-afba-3fbefb308c58%2F%25E6%2588%25AA%25E5%25B1%258F2024-04-19_17.29.31.png?table=block&id=bb28f406-4c3c-4980-829d-40b488c6b563&t=bb28f406-4c3c-4980-829d-40b488c6b563&width=668.0078125&cache=v2)
-
-链接: [https://pan.baidu.com/s/1pmXW3si6Qas-QxhptjFUsQ?pwd=0009](https://pan.baidu.com/s/1pmXW3si6Qas-QxhptjFUsQ?pwd=0009) 提取码: 0009
-
 预测原理基于道家的小六壬，采用的是时辰起局法。不过一般都是测算者掐指一算，但我这是一回车一算，还省去了计算今天是农历几月初几，当前是什么时辰这些时间信息的工作。
 
 **时辰起局法**
